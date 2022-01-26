@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>To-do App</title>
+    <link rel="stylesheet" href="H:\compitition\The Modern JavaScript Bootcamp\todo-app\styles\styles.css">
+    <link rel="icon" href="H:\compitition\The Modern JavaScript Bootcamp\todo-app\images\favicon.png">
+
+</head>
+
+<body>
+
+
+    <header class="header">
+        <div class="container">
+            <h1 class="header__title">To-do App</h1>
+            <h2 class="header__subtitle">What do you need to do?</h2>
+        </div>
+    </header>
+
+
+    <div class="actions">
+        <div class="actions__container">
+            <input id='searchText'class="input" type="input" placeholder="filter todos">
+
+            <label class="checkbox">
+            <input id="hideCompleted" type="checkbox"> Hide Completed
+            </label>
+
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div id="todos"></div>
+        <form id="formName">
+            <input type="text" class="input" placeholder="Enter something to do" name="todo">
+            <button class="button">Add Todo</button>
+        </form>
+
+    </div>
+
+
+    
+  
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/uuid/8.3.2/uuidv4.min.js"></script>
+    <script src="H:\compitition\The Modern JavaScript Bootcamp\todo-app\scripts\todo-function.js"></script>
+    <script src="H:\compitition\The Modern JavaScript Bootcamp\todo-app\scripts\todo.js"></script>
+
+</body>
+
+</html>
